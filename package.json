@@ -1,0 +1,25 @@
+{
+  "name": "01-node-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TanyaShved/01-node-basics.git"
+  },
+  "author": "TanyaShved",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TanyaShved/01-node-basics/issues"
+  },
+  "homepage": "https://github.com/TanyaShved/01-node-basics"
+}
