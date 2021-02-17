@@ -11,7 +11,7 @@ export async function listContacts() {
   const contacts = await Methods.readFile(contactsPath, 'utf8');
     
   console.log('List of contacts:');
-  console.table(contacts);
+  console.table(JSON.parse(contacts));
     
   return JSON.parse(contacts);
   } catch (error) {
